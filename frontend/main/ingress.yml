@@ -2,7 +2,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: shop-ingress
-  namespace: google
   annotations:
     kubernetes.io/ingress.class: nginx
 spec:
@@ -89,5 +88,6 @@ spec:
                 name: googlegrocery-service
                 port:
                   number: 80
+
 
 
