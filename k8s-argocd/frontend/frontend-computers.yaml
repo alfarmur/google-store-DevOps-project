@@ -11,7 +11,7 @@ spec:
     targetRevision: main
   destination:
     server: https://kubernetes.default.svc
-    namespace: google1
+    namespace: google
   syncPolicy:
     automated:
       prune: false
